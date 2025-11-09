@@ -1,10 +1,13 @@
 import os
+from dotenv import load_dotenv
 from fastapi import Depends, FastAPI
 from pydantic import BaseModel
 from .ai.gemini import Gemini
 from .auth.dependencies import get_user_identifier
 from .auth.throttling import apply_rate_limit
 
+# Load environment variables from .env file
+load_dotenv()
 
 # --- App Initialization ---
 app = FastAPI()
