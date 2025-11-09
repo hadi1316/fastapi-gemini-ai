@@ -123,3 +123,6 @@ The project is structured to be modular, allowing for different AI platforms to 
 - `src/auth/throttling.py`: Provides a simple in-memory rate limiter with different limits for authenticated and unauthenticated users.
 
 To use a different AI, you would create a new class that inherits from `AIPlatform` and implement the `chat` method. Then, you would update `src/main.py` to use your new AI class.
+
+Youtub link: https://www.youtube.com/watch?v=uDUfZyNXFX0
+FastAPI for AI: Build an AI Endpoint in 30 Minutes
