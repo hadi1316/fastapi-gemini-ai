@@ -126,3 +126,5 @@ To use a different AI, you would create a new class that inherits from `AIPlatfo
 
 Youtub link: https://www.youtube.com/watch?v=uDUfZyNXFX0
 FastAPI for AI: Build an AI Endpoint in 30 Minutes
+
+python -m uvicorn src.main:app --reload --port 8000

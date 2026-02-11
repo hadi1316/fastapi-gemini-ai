@@ -10,7 +10,7 @@ class Gemini(AIPlatform):
         genai.configure(api_key=self.api_key)
 
         # See more models at: https://ai.google.dev/gemini-api/docs/models
-        self.model = genai.GenerativeModel("gemini-2.5-flash-preview-05-20")
+        self.model = genai.GenerativeModel("gemini-2.5-flash")
 
     def chat(self, prompt: str) -> str:
         if self.system_prompt:

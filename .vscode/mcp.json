@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/hadidi001/Documents/GitHub/fastapi-gemini-ai"
+      ]
+    }
+  }
+}
